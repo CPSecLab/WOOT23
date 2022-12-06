@@ -112,7 +112,7 @@ section h3.section-subheading {
 	<ul class="navbar-nav ml-auto">
 		<li class="nav-item"><a class="nav-link" href="#page-top">Home</a></li>
 		<!--<li class="nav-item">Keynotes</li>-->
-		<li class="nav-item"><a class="nav-link" href="#program">Program</a></li>
+    <!--<li class="nav-item"><a class="nav-link" href="#program">Program</a></li>-->
 		<li class="nav-item"><a class="nav-link" href="#cfp">Call for Papers</a></li>
 		<li class="nav-item"><a class="nav-link" href="#committee">Committee</a></li>
 		<li class="nav-item"><a class="nav-link" href="#sponsors">Sponsors</a></li>
@@ -141,6 +141,7 @@ section h3.section-subheading {
 
 </div>
 
+<!--
 <section id="program">
 <div class="container">
 <br>
@@ -150,19 +151,19 @@ Available soon!
 
 </div>
 </section>
+-->
 
 
 <hr>
 
 <section id="cfp">
 <div class="container">
-<br>
 <h2>Call for Papers</h2>
 <h3>Symposium Topics</h3>
 
 <p>Computer security exposes the differences between the actual mechanisms of everyday trusted technologies and their models used by developers, architects, academic researchers, owners, operators, and end users. While being inherently focused on practice, security also poses questions such as "what kind of computations are and aren't trusted systems capable of?" which harken back to fundamentals of computability. State-of-the-art offense explores these questions pragmatically, gathering material for generalizations that lead to better models and more trustworthy systems.</p>
 
-<p>WOOT provides a forum for high-quality, peer-reviewed work discussing tools and techniques for attacks. Submissions should reflect the state of the art in offensive computer security technology, exposing poorly understood mechanisms, presenting novel attacks, highlighting the limitations of published attacks and defenses, or surveying the state of offensive operations at scale. WOOT '23 accepts papers in both an academic security context and more applied work that informs the field about the state of security practice in offensive techniques. The goal for these submissions is to produce published works that will guide future work in the field. Submissions will be peer reviewed and shepherded as appropriate. Submission topics include, but are not limited to, attacks on and offensive research into:</p>
+<p>WOOT provides a forum for high-quality, peer-reviewed work discussing tools and techniques for attacks. Submissions should reflect the state of the art in offensive computer security technology, exposing poorly understood mechanisms, presenting novel attacks, highlighting the limitations of published attacks and defenses, or surveying the state of offensive operations at scale. WOOT '23 accepts papers in both an academic security context and more applied work that informs the field about the state of security practice in offensive techniques. The goal for these submissions is to produce published works that will guide future work in the field. Submissions will be peer-reviewed and shepherded as appropriate. Submission topics include, but are not limited to, attacks on and offensive research into:</p>
 
 <ul>
 	<li>Hardware, including software-based exploitation of hardware vulnerabilities</li>
@@ -194,7 +195,7 @@ Available soon!
 <p>WOOT '23 welcomes submissions without restrictions of origin. Submissions from academia, independent researchers, students, hackers, and industry are welcome. Are you planning to give a cool talk at Black Hat in August? Got something interesting planned for other non-academic venues later this year? This is exactly the type of work we'd like to see at WOOT '23. Please submit—it will also give you a chance to have your work reviewed and to receive suggestions and comments from some of the best researchers in the world. More formal academic offensive security papers are also very welcome.</p>
 
 
-<h3>Systemization of Knowledge</h3>
+<h3>Systematization of Knowledge</h3>
 
 <p>Continuing the tradition of past years, WOOT '23 will be accepting "Systematization of Knowledge" (SoK) papers. The goal of an SoK paper is to encourage work that evaluates, systematizes, and contextualizes existing knowledge. These papers will prove highly valuable to our community but would not be accepted as refereed papers because they lack novel research contributions. Suitable papers include survey papers that provide useful perspectives on major research areas, papers that support or challenge long-held beliefs with compelling evidence, or papers that provide an extensive and realistic evaluation of competing approaches to solving specific problems. Be sure to select "Systematization of Knowledge paper" in the submissions system to distinguish it from other paper submissions.</p>
 
@@ -206,9 +207,9 @@ Available soon!
 
 
 <ul>
-	<li>Paper submission deadline: <span style='color:black'> <b>Friday, January 27, 2023, 11:59 AoE (Anywhere on Earth) </b></li>
-	<li>Notification date: <span style='color:black'>TBD</b></li>
-    <li>Camera-ready paper deadline: <b>Sunday, March 5th, 2023</b></li>
+	<li>Paper submission deadline: <span style='color:black'> <b>Friday, January 27, 2023, 23:59:59 AoE (Anywhere on Earth) </b></li>
+	<li>Notification date: TBD</li>
+  <li>Camera-ready paper deadline: TBD</li>
 	<li>Workshop date: <b>Thursday, May 25, 2023</b></li>
 </ul>
 
@@ -234,26 +235,36 @@ Available soon!
 <p>Simultaneous submission of the same work to multiple competing academic venues, submission of previously published work without substantial novel contributions, or plagiarism constitutes dishonesty or fraud. Note: Work presented by the authors at industry conferences, such as Black Hat, is not considered to have been "previously published" for the purposes of WOOT '23. We strongly encourage the submission of such work to WOOT '23, particularly work that is well suited to a more formal and complete treatment in a published, peer-reviewed setting. In your submission, please do note any previous presentations of the work. </p>
 
 
-<h4>Vulnerability Disclosure</h4>
-
-<p>If the submission describes, or otherwise takes advantage of, newly identified vulnerabilities (e.g., software vulnerabilities in a given program or design weaknesses in a hardware system) the authors should disclose these vulnerabilities to the vendors/maintainers of affected software or hardware systems prior to the CFP deadline. When disclosure is necessary, authors should include a statement within their submission and/or final paper about steps taken to fulfill the goal of disclosure.</p>
-
-
 <h4>Ethical Considerations</h4>
 
-<p>Submissions that describe experiments on human subjects, that analyze data derived from human subjects (even anonymized data), or that otherwise may put humans at risk should:
+<b>Note:</b> WOOT '23 ethical guidelines are aligned with the guidelines discussed in the <a href="https://www.ieee-security.org/TC/SP2023/cfpapers.html">IEEE S&amp;P '23 CFP</a>. For convenience, we report them here verbatim.
 
-<ul>
-    <li>Disclose whether the research received an approval or waiver from each of the authors’ institutional ethics review boards (e.g., an IRB).</li>
-    <li>Discuss steps taken to ensure that participants and others who might have been affected by an experiment were treated ethically and with respect.</li>
-    <li>If a paper raises significant ethical or legal concerns, including in its handling of personally identifiable information (PII) or other kinds of sensitive data, it might be rejected based on these concerns.</li>
-</ul>
-</p>
+<p></p>
+
+<h5>Ethical Considerations for Vulnerability Disclosure</h5>
+
+<p>Where research identifies a vulnerability (e.g., software vulnerabilities in a given program, design weaknesses in a hardware system, or any other kind of vulnerability in deployed systems), we expect that researchers act in a way that avoids gratuitous harm to affected users and, where possible, affirmatively protects those users. In nearly every case, disclosing the vulnerability to vendors of affected systems, and other stakeholders, will help protect users. It is the committee’s sense that a disclosure window of 45 days <a href="https://vuls.cert.org/confluence/display/Wiki/Vulnerability+Disclosure+Policy">https://vuls.cert.org/confluence/display/Wiki/Vulnerability+Disclosure+Policy</a> to 90 days <a href="https://googleprojectzero.blogspot.com/p/vulnerability-disclosure-faq.html">https://googleprojectzero.blogspot.com/p/vulnerability-disclosure-faq.html</a> ahead of publication is consistent with authors’ ethical obligations.</p>
+
+<p>Longer disclosure windows (which may keep vulnerabilities from the public for extended periods of time) should only be considered in exceptional situations, e.g., if the affected parties have provided convincing evidence the vulnerabilities were previously unknown and the full rollout of mitigations requires additional time. The authors are encouraged to consult with the PC chairs in case of questions or concerns.</p>
+
+<p>The version of the paper submitted for review must discuss in detail the steps the authors have taken or plan to take to address these vulnerabilities; but, consistent with the timelines above, the authors do not have to disclose vulnerabilities ahead of submission. If a paper raises significant ethical and/or legal concerns, it will be checked by the REC and it might be rejected based on these concerns. The PC chairs will be happy to consult with authors about how this policy applies to their submissions.</p>
 
 
-<!--<h4>Registration for Authors</h4>
+<h5>Ethical Considerations for Human Subjects Research</h5>
 
-<p>At least one author per paper has to register and present the paper.</p>-->
+<p>Submissions that describe experiments that could be viewed as involving human subjects, that analyze data derived from human subjects (even anonymized data), or that otherwise may put humans at risk should:</p>
+
+<ol>
+    <li>Disclose whether the research received an approval or waiver from each of the authors' institutional ethics review boards (IRB) if applicable.</li>
+      <li>Discuss steps taken to ensure that participants and others who might have been affected by an experiment were treated ethically and with respect.</li>
+</ol>
+
+<p>If a submission deals with any kind of personal identifiable information (PII) or other kinds of sensitive data, the version of the paper submitted for review must discuss in detail the steps the authors have taken to mitigate harms to the persons identified. If a paper raises significant ethical and/or legal concerns, it will be checked by the REC and it might be rejected based on these concerns. The PC chairs will be happy to consult with authors about how this policy applies to their submissions.</p>
+
+
+<h4>Registration for Authors</h4>
+
+<p>At least one author per paper has to register and present the paper.</p>
 
 </div>
 </section>
@@ -317,15 +328,9 @@ Available soon!
 
 <p>We recognize that some artifacts may attempt to perform malicious operations by design. These cases should be boldly and explicitly flagged in detail in the readme so AEC members can take appropriate precautions before installing and running these artifacts. The evaluation of exploits and similar results might lead to additional hurdles where we still need to collect experience how to handle this best. Please contact us in case you have concerns, for example when evaluating bug finding tools or other types of artifacts that need special requirements.</p>
 
-<h4>AEC Members</h4>
+<p>The AEC will consist of about 5–10 members. We intend for other members to be a combination of senior graduate students, postdocs, and researchers. We seek to include a broad cross-section of the WOOT community on the AEC.</p>
 
-<p> To be announced. </p>
-	
-
-
-<!--<p>The AEC will consist of about 5–10 members. We intend for other members to be a combination of senior graduate students, postdocs, and researchers. We seek to include a broad cross-section of the WOOT community on the AEC.</p>
--->
-<!-- <p>If you are interested in joining the AEC, or supervise PhD students who might be, please contact us at <a href="mailto:woot21-aec@vusec.net">woot21-aec@vusec.net</a>.</p> -->
+<p>If you are interested in joining the AEC, or supervise PhD students who might be, please contact us at <a href="mailto:woot23chairs@gmail.com">woot23chairs@gmail.com</a>.</p>
 </div>
 </section>
 
@@ -334,26 +339,25 @@ Available soon!
 <section id="committee">
 <div class="container">
 <br>
-<h2>Committee</h2>
+<h2>Committees</h2>
 
-<h4>Program co-chairs (email)</h4>
+<h4>Program co-chairs (email: woot23chairs@gmail.com)</h4>
 <ul>
 	<li>Sara Rampazzi, University of Florida</li>
 	<li>Yanick Fratantonio, Google</li>
 </ul>
 
-<h4>Publicity Chair</h4>
-<ul>
-    <li>To be announced.</li>
-</ul>
-
-<h4>Artifact evaluation committee</h4>
-To be announced.<p/>
-
-<h4>Program committee</h4>
-
+<h4>Publicity chair</h4>
 <p>To be announced.</p>
 
+<h4>Reproducibility chair</h4>
+<p>To be announced.</p>
+
+<h4>Program committee</h4>
+<p>To be announced.</p>
+
+<h4>Artifact evaluation committee</h4>
+<p>To be announced.<p/>
 
 <h4>Steering committee</h4>
 <ul>
@@ -364,6 +368,8 @@ To be announced.<p/>
     <li>Collin Mulliner, Cruise</li>
     <li>Fangfei Liu, Intel</li>
     <li>Mathias Payer, EPFL</li>
+    <li>Colin O'Flynn, NewAE Technology and Dalhousie University</li>
+    <li>Martina Lindorfer, TU Wien</li>
 </ul>
 
 
@@ -381,9 +387,13 @@ To be announced.<p/>
 </p>
 </div>
 
+
+
 <section id="sponsors">
 <div class="container">
 <h2>Sponsors</h2>
+
+Reach out to the chairs (woot23chairs@gmail.com) if you are interested to sponsor this event! Thank you!
 
 
 <!--
