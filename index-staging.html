@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="Mathias Payer">
+<meta name="theme-color" content="#563d7c">
+<title>17th Workshop On Offensive Technologies (WOOT '23)</title>
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet"/>
+<link href="css/fontawesome.min.css" rel="stylesheet"/>
+<link href="css/academicons.min.css" rel="stylesheet"/>
+<style>
+body {
+    overflow-x: hidden;
+    font-family: K2D, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+p {
+    line-height: 1.75;
+    text-align: left;
+}
+
+a {
+    color: #b33;
+}
+
+a.active, a:active, a:focus, a:hover {
+    color: #d44;
+}
+
+strike {
+	text-decoration-thickness: 2px;
+	text-decoration-color: #aa0000aa;
+	}
+
+strong.important {
+    color: #b33;
+}
+
+.text-primary {
+    color: #00ff00 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: left;
+    font-weight: 700;
+}
+
+section {
+    padding: 60px 0;
+}
+
+th, td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+section h2.section-heading {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+section h3.section-subheading {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-transform: none;
+}
+
+#mainNav {
+    background-color: #222;
+}
+
+#mainNav .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: #c44;
+}
+
+#mainNav .navbar-brand {
+    color: #f44;
+    /* font-weight: bold; */
+}
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    color: #f44;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 90%;
+    font-weight: 400;
+    padding: 1.1em;
+    letter-spacing: 1px;
+    color: white;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #f44;
+}
+</style>
+</head>
+
+<body id="page-top">
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+<div class="container">
+	<a class="navbar-brand" href="#page-top"><img src="woot-logo.png" width="50px" alt="WOOT Logo"/> WOOT 2023</a>
+	<div class="collapse navbar-collapse" id="navbar">
+	<ul class="navbar-nav ml-auto">
+		<li class="nav-item"><a class="nav-link" href="#page-top">Home</a></li>
+		<!--<li class="nav-item">Keynotes</li>-->
+		<!--<li class="nav-item"><a class="nav-link" href="#program">Program</a></li>-->
+		<li class="nav-item"><a class="nav-link" href="#cfp">Call for Papers</a></li>
+		<li class="nav-item"><a class="nav-link" href="#cfa">Artifact Evaluation</a></li>
+		<li class="nav-item"><a class="nav-link" href="#committee">Committee</a></li>
+		<li class="nav-item"><a class="nav-link" href="#sponsors">Sponsors</a></li>
+		<li class="nav-item"><a class="nav-link" href="https://www.ieee-security.org/TC/SP2023/">IEEE S&amp;P</a></li>
+	</ul>
+	</div>
+</div>
+</nav>
+
+<main role="main" class="container">
+
+<section id="header">
+<div class="container">
+<br>
+<img src="woot-logo.png" class="float-right" width="200px" alt="WOOT Logo"/>
+
+<h1>17th IEEE Workshop on Offensive Technologies</h1>
+<h4>May 25, 2023, co-located with <a href="https://www.ieee-security.org/TC/SP2023/">IEEE S&amp;P</a></h4>
+
+<a href="https://twitter.com/wootsecurity"><div style="color: rgb(29, 155, 240);width:30px;height:30p; display:inline-block;"><svg viewBox="0 0 24 24" aria-hidden="true" style="color: rgb(29, 155, 240)"><g><path style="color: rgb(29, 155, 240)" d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z"></path></g></svg></div> Follow us on Twitter</a>
+
+&ensp;
+
+<a href="https://infosec.exchange/@wootsecurity"><div style="color: rgb(29, 155, 240);width:30px;height:30p; display:inline-block;"><svg viewBox="0 0 32 32" aria-hidden="true" style="color: rgb(29, 155, 240)"><g>
+<path d="M 15.9375 4.03125 C 12.917 4.0435 9.9179219 4.4269844 8.3574219 5.1464844 C 8.3574219 5.1464844 5 6.6748594 5 11.880859 C 5 18.077859 4.9955 25.860234 10.5625 27.365234 C 12.6945 27.938234 14.527953 28.061562 16.001953 27.976562 C 18.676953 27.825562 20 27.005859 20 27.005859 L 19.910156 25.029297 C 19.910156 25.029297 18.176297 25.640313 16.029297 25.570312 C 13.902297 25.495313 11.6615 25.335688 11.3125 22.679688 C 11.2805 22.432688 11.264625 22.182594 11.265625 21.933594 C 15.772625 23.052594 19.615828 22.420969 20.673828 22.292969 C 23.627828 21.933969 26.199344 20.081672 26.527344 18.388672 C 27.041344 15.720672 26.998047 11.880859 26.998047 11.880859 C 26.998047 6.6748594 23.646484 5.1464844 23.646484 5.1464844 C 22.000984 4.3779844 18.958 4.019 15.9375 4.03125 z M 12.705078 8.0019531 C 13.739953 8.0297031 14.762578 8.4927031 15.392578 9.4707031 L 16.001953 10.505859 L 16.609375 9.4707031 C 17.874375 7.5037031 20.709594 7.6264375 22.058594 9.1484375 C 23.302594 10.596438 23.025391 11.531 23.025391 18 L 23.025391 18.001953 L 20.578125 18.001953 L 20.578125 12.373047 C 20.578125 9.7380469 17.21875 9.6362812 17.21875 12.738281 L 17.21875 16 L 14.787109 16 L 14.787109 12.738281 C 14.787109 9.6362812 11.429688 9.7360938 11.429688 12.371094 L 11.429688 18 L 8.9765625 18 C 8.9765625 11.526 8.7043594 10.585438 9.9433594 9.1484375 C 10.622859 8.3824375 11.670203 7.9742031 12.705078 8.0019531 z"></path>
+</svg></div> Follow us on Mastodon</a>
+<p/><p><p/>
+
+<h3>Overview</h3>
+
+<p>The Workshop on Offensive Technologies (WOOT) aims to present a broad picture of offense and its contributions, bringing together researchers and practitioners across all areas of computer security. Offensive security has changed from a hobby to an industry. No longer an exercise for isolated enthusiasts, offensive security is today a large-scale operation managed by organized, capitalized actors. Meanwhile, the landscape has shifted: software used by millions is built by startups less than a year old, delivered on mobile phones and surveilled by national signals intelligence agencies. In the field's infancy, offensive security research was conducted separately by industry, independent hackers, or in academia. Collaboration between these groups was difficult. Since 2007, the Workshop on Offensive Technologies (WOOT) has been bringing those communities together.</p>
+
+</div>
+
+<!--
+<section id="program">
+<div class="container">
+<br>
+<h2>Workshop Program</h2>
+
+Available soon!
+
+</div>
+</section>
+-->
+
+
+<hr>
+
+<section id="cfp">
+<div class="container">
+<h2>Call for Papers</h2>
+<h3>Symposium Topics</h3>
+
+<p>Computer security exposes the differences between the actual mechanisms of everyday trusted technologies and their models used by developers, architects, academic researchers, owners, operators, and end users. While being inherently focused on practice, security also poses questions such as "what kind of computations are and aren't trusted systems capable of?" which harken back to fundamentals of computability. State-of-the-art offense explores these questions pragmatically, gathering material for generalizations that lead to better models and more trustworthy systems.</p>
+
+<p>WOOT provides a forum for high-quality, peer-reviewed work discussing tools and techniques for attacks. Submissions should reflect the state of the art in offensive computer security technology, exposing poorly understood mechanisms, presenting novel attacks, highlighting the limitations of published attacks and defenses, or surveying the state of offensive operations at scale. WOOT '23 accepts papers in both an academic security context and more applied work that informs the field about the state of security practice in offensive techniques. The goal for these submissions is to produce published works that will guide future work in the field. Submissions will be peer-reviewed and shepherded as appropriate. Submission topics include, but are not limited to, attacks on and offensive research into:</p>
+
+<ul>
+	<li>Hardware, including software-based exploitation of hardware vulnerabilities</li>
+	<li>Virtualization and the cloud</li>
+	<li>Network and distributed systems</li>
+	<li>Operating systems</li>
+	<li>Web security</li>
+	<li>Browser and general client-side security (runtimes, JITs, sandboxing)</li>
+	<li>Application security</li>
+	<li>Analysis of mitigations and automating how they can be bypassed</li>
+	<li>Automating software testing such as fuzzing for novel targets</li>
+	<li>Internet of Things</li>
+	<li>Machine Learning</li>
+	<li>Cyber-physical systems</li>
+	<li>Privacy</li>
+	<li>Cryptographic systems (practical attacks on deployed systems)</li>
+	<li>Malware design, implementation and analysis</li>
+	<li>Offensive applications of formal methods (solvers, symbolic execution)</li>
+</ul>
+
+
+<h3>Workshop Format</h3>
+
+<p>The presenters will be authors of accepted papers. There will also be a keynote speaker and a selection of invited speakers. </p>
+
+<p>Note that WOOT'23 and other IEEE S&amp;P workshops are planned to be held in person, see the <a href="https://www.ieee-security.org/TC/SP2023/">IEEE S&P website for details and updates</a>.</p>
+
+<h3>Regular Submission</h3>
+
+<p>WOOT '23 welcomes submissions without restrictions of origin. Submissions from academia, independent researchers, students, hackers, and industry are welcome. Are you planning to give a cool talk at Black Hat in August? Got something interesting planned for other non-academic venues later this year? This is exactly the type of work we'd like to see at WOOT '23. Please submit—it will also give you a chance to have your work reviewed and to receive suggestions and comments from some of the best researchers in the world. More formal academic offensive security papers are also very welcome.</p>
+
+
+<h3>Systematization of Knowledge</h3>
+
+<p>Continuing the tradition of past years, WOOT '23 will be accepting "Systematization of Knowledge" (SoK) papers. The goal of an SoK paper is to encourage work that evaluates, systematizes, and contextualizes existing knowledge. These papers will prove highly valuable to our community but would not be accepted as refereed papers because they lack novel research contributions. Suitable papers include survey papers that provide useful perspectives on major research areas, papers that support or challenge long-held beliefs with compelling evidence, or papers that provide an extensive and realistic evaluation of competing approaches to solving specific problems. Be sure to select "Systematization of Knowledge paper" in the submissions system to distinguish it from other paper submissions.</p>
+
+
+<h3>Submission Requirements</h3>
+
+<!-- Add <s> tags once this is done, like this: <li>Abstract registration deadline: <b><s>Wednesday, January 27, 2021, 11:59 AoE (Anywhere on Earth)</s></b></li> -->
+
+
+
+<ul>
+  <li>Paper submission deadline (<span style='color:red'><b>extended!</b></span>): <strike>Friday, January 27, 2023</strike> <b>Friday, February 10th, 2023, 23:59:59 AoE (Anywhere on Earth) (<span style='color:red'>firm!</span>)</b></li>
+	<li>Notification date: <b>Tuesday, March 7th, 2023</b></li>
+  <li>Camera-ready paper deadline: <b>Friday, March 31st, 2023</b></li>
+	<li>Workshop date: <b>Thursday, May 25, 2023</b></li>
+</ul>
+
+<p>Please submit your paper at: <a href= https://hotcrp.eurecom.fr/woot23/> <b> https://hotcrp.eurecom.fr/woot23 </b></a></a></p>
+
+<h4>What to Submit</h4>
+
+<p>Submissions must be in PDF format. Papers should be succinct but thorough in presenting the work. The contribution needs to be well motivated, clearly exposed, and compared to the state of the art. Typical research papers are at least 4 pages, and maximum 10 pages long (not counting bibliography and appendix). Yet, papers whose lengths are incommensurate with their contributions will be rejected.</p>
+
+<p>The submission should be formatted in 2-columns, using 10-point Times Roman type on 12-point leading, in a text block of 6.5” x 9”. Please number the pages. Authors must use the IEEE templates, for LaTeX papers this is <a href="https://ctan.org/tex-archive/macros/latex/contrib/IEEEtran/?lang=en">IEEETran.cls version 1.8b</a>.</p>
+
+<p>Note that paper format rules may be clarified. Stay tuned.</p>
+
+<p>Submissions are double blind: submissions should be anonymized and avoid obvious self-references (authors are allowed to release technical reports and present their work elsewhere such as at DefCon or BlackHat). Submit papers using the submission form.</p>
+
+<p>Authors of accepted papers will have to provide a paper for the proceedings following the above guidelines. A shepherd may be assigned to ensure the quality of the proceedings version of the paper.</p>
+
+<p>If your paper should not be published prior to the event, please notify the chairs. Submissions accompanied by non-disclosure agreement forms will not be considered. Accepted submissions will be treated as confidential prior to publication on the WOOT '23 website; rejected submissions will be permanently treated as confidential.</p>
+
+
+<h4>Policies and Contact Information</h4>
+
+<p>Simultaneous submission of the same work to multiple competing academic venues, submission of previously published work without substantial novel contributions, or plagiarism constitutes dishonesty or fraud. Note: Work presented by the authors at industry conferences, such as Black Hat, is not considered to have been "previously published" for the purposes of WOOT '23. We strongly encourage the submission of such work to WOOT '23, particularly work that is well suited to a more formal and complete treatment in a published, peer-reviewed setting. In your submission, please do note any previous presentations of the work. </p>
+
+
+<h4>Ethical Considerations</h4>
+
+<b>Note:</b> WOOT '23 ethical guidelines are aligned with the guidelines discussed in the <a href="https://www.ieee-security.org/TC/SP2023/cfpapers.html">IEEE S&amp;P '23 CFP</a>. For convenience, we report them here verbatim.
+
+<p></p>
+
+<h5>Ethical Considerations for Vulnerability Disclosure</h5>
+
+<p>Where research identifies a vulnerability (e.g., software vulnerabilities in a given program, design weaknesses in a hardware system, or any other kind of vulnerability in deployed systems), we expect that researchers act in a way that avoids gratuitous harm to affected users and, where possible, affirmatively protects those users. In nearly every case, disclosing the vulnerability to vendors of affected systems, and other stakeholders, will help protect users. It is the committee’s sense that a disclosure window of 45 days <a href="https://vuls.cert.org/confluence/display/Wiki/Vulnerability+Disclosure+Policy">https://vuls.cert.org/confluence/display/Wiki/Vulnerability+Disclosure+Policy</a> to 90 days <a href="https://googleprojectzero.blogspot.com/p/vulnerability-disclosure-faq.html">https://googleprojectzero.blogspot.com/p/vulnerability-disclosure-faq.html</a> ahead of publication is consistent with authors’ ethical obligations.</p>
+
+<p>Longer disclosure windows (which may keep vulnerabilities from the public for extended periods of time) should only be considered in exceptional situations, e.g., if the affected parties have provided convincing evidence the vulnerabilities were previously unknown and the full rollout of mitigations requires additional time. The authors are encouraged to consult with the PC chairs in case of questions or concerns.</p>
+
+<p>The version of the paper submitted for review must discuss in detail the steps the authors have taken or plan to take to address these vulnerabilities; but, consistent with the timelines above, the authors do not have to disclose vulnerabilities ahead of submission. If a paper raises significant ethical and/or legal concerns, it will be checked by the chairs and it might be rejected based on these concerns. The PC chairs will be happy to consult with authors about how this policy applies to their submissions.</p>
+
+
+<h5>Ethical Considerations for Human Subjects Research</h5>
+
+<p>Submissions that describe experiments that could be viewed as involving human subjects, that analyze data derived from human subjects (even anonymized data), or that otherwise may put humans at risk should:</p>
+
+<ol>
+    <li>Disclose whether the research received an approval or waiver from each of the authors' institutional ethics review boards (IRB) if applicable.</li>
+      <li>Discuss steps taken to ensure that participants and others who might have been affected by an experiment were treated ethically and with respect.</li>
+</ol>
+
+<p>If a submission deals with any kind of personal identifiable information (PII) or other kinds of sensitive data, the version of the paper submitted for review must discuss in detail the steps the authors have taken to mitigate harms to the persons identified. If a paper raises significant ethical and/or legal concerns, it will be checked by the chairs and it might be rejected based on these concerns. The PC chairs will be happy to consult with authors about how this policy applies to their submissions.</p>
+
+
+<h4>Registration for Authors</h4>
+
+<p>At least one author per paper has to register and present the paper.</p>
+
+</div>
+</section>
+
+<hr>
+
+<section id="cfa">
+<div class="container">
+<br>
+<h3>Artifact Evaluation</h3>
+
+<p><s>We seek to include a broad cross-section of the WOOT community in the AEC. If you are interested in joining the AEC, or supervising PhD students who might be, please send your application using this <a href="https://forms.gle/Q1McXcPjsaxGHL4u6">form</a> by <b>February 12th, 2023</b>.</s></p>
+
+<h4>Submission</h4>
+
+<ul>
+  <li>Artifact submission deadline: <b>Thursday, March 16th 2023, 23:59:59 AoE (Anywhere on Earth)</b></li>
+  <li>Discussion period:            <b>Friday, March 17th - Friday, March 24th 2023, AoE</b></li>
+  <li>Decisions announced:          <b>Tuesday, March 28th 2023, AoE</b></li>
+</ul>
+
+<p>Please submit your artifact at: <strong><a href="https://woot23ae.secpriv.tuwien.ac.at/">https://woot23ae.secpriv.tuwien.ac.at/</a></strong>.</p>
+
+<p>Authors of accepted papers are expected to submit the following:
+<ul>
+	<li><b>A PDF with an abstract for the artifact</b>. The abstract should specify the core idea, the focus of the artifact, and what the evaluation should check</li>
+	<li><b>A PDF of the most recent version of the accepted paper</b>
+	<li><b>Documentation about the artifact</b> (what to test and/or how to reproduce the contributions of the paper)</li>
+	<li><b>A link to the artifact</b>, accessible via a stable reference or DOI. For this purpose, we recommend <a href="https://zenodo.org/">Zenodo</a>. Since the artifact can evolve during the evaluation to address feedback from the reviewers, another (potentially different) stable reference will be later collected for the final version of the artifact.</li>
+</ul>
+</p>
+
+<p>Submissions are single-blind, i.e., authors must ensure that the evaluation process preserves reviewers' anonymity. Please refer to <a href="#ae-process">Process</a> and <a href="#ae-details">Artifact Details</a> for additional details.</p>
+
+
+<h4>Overview</h4>
+
+<p>A scientific paper consists of a constellation of artifacts that extend beyond the document itself: software, hardware, evaluation data and documentation, raw survey results, mechanized proofs, models, test suites, benchmarks, and so on. In some cases, the quality of these artifacts is as important as that of the document itself, yet many of our conferences offer no formal means to submit and evaluate anything but the paper itself. To address this shortcoming, WOOT organizes an optional artifact evaluation process, inspired by similar efforts in software engineering and security conferences.</p>
+
+<h4>Benefits</h4>
+
+<p>We believe the dissemination of artifacts benefits our science and engineering as a whole, as well as the authors submitting them. Their availability improves replicability and reproducibility and enables authors to build on top of each other's work. It can also help more unambiguously resolve questions about cases not considered by the original authors. The authors receive recognition, leading to higher-impact papers, and also benefit themselves from making code reusable.</p>
+
+<h4>Badges</h4>
+
+<p>Authors can choose to have their artifact evaluated against the following badges:
+
+<ul>
+	<li><b>Open Research Objects (ORO)</b>: this badge indicates that the artifact is permanently archived in a public repository that assigns a global identifier and guarantees persistence, and is made available via standard open licenses that maximize artifact availability.</li>
+	<li><b>Research Objects Reviewed (ROR)</b>: this badge indicates that all relevant artifacts used in the research (including data and code) were reviewed and conformed to the expectations set by the paper.</li>
+</ul>
+</p>
+
+<p>We expect artifacts to be:
+<ul>
+	<li>consistent with the paper</li>
+	<li>as complete as possible</li>
+	<li>documented well</li>
+	<li>easy to reuse, facilitating further research</li>
+</ul>
+</p>
+
+<p>Notice that the two badges can be issued independently.</p>
+
+<h4 id="ae-process">Process</h4>
+
+<p>Artifact evaluation is a separate process from paper reviews, and authors will be asked to submit their artifacts only after their papers have been (conditionally) accepted for publication at WOOT. After the artifact submission, at least one member of the AEC will download and install the artifact (where relevant) and evaluate it. Since we anticipate minor glitches with installation and usage, reviewers may communicate with authors to help resolve glitches while preserving reviewer anonymity. The AEC will complete its evaluation and notify the authors of the outcome.</p>
+
+<p>For the camera-ready version, authors who have successfully passed the evaluation process will receive the awarded badges on their papers.</p>
+
+<h4 id="ae-details">Artifact Details</h4>
+
+<p>To avoid excluding some papers, the AEC will try to accept any artifact that authors wish to submit. These can be software, hardware, data sets, survey results, test suites, mechanized proofs, etc. Given the experience in other communities, we decided to not accept paper proofs in the artifact evaluation process. The AEC lacks the time and often the expertise to carefully review paper proofs. Obviously, the better the artifact is packaged, the more likely the AEC can actually work with it during the evaluation process.</p>
+
+<p>While we encourage open research, submission of an artifact does not contain tacit permission to make its content public. All AEC members will be instructed not to publicize any part of your artifact during or after the evaluation, nor retain any part after evaluation. Thus, you are free to include, e.g., models, data files, or proprietary binaries in your artifact. Also, note that participating in the AEC experiment does not require you to publish your artifacts unless you apply for the Open Research Objects (ORO) badge. Still, we strongly encourage you to do so.</p>
+
+<p>We recognize that some artifacts may attempt to perform malicious operations by design. These cases should be boldly and explicitly flagged in detail in the readme so AEC members can take appropriate precautions before installing and running these artifacts. The evaluation of exploits and similar results might lead to additional hurdles where we still need to collect experience on how to handle this best. Please contact the AE chair if you have concerns, for example when evaluating bug-finding tools or other types of artifacts that need special requirements.</p>
+</div>
+</section>
+
+<hr>
+
+<section id="committee">
+<div class="container">
+<br>
+<h2>Committees</h2>
+
+<h4>Program co-chairs (email: woot23chairs@gmail.com)</h4>
+<ul>
+	<li>Sara Rampazzi, University of Florida</li>
+	<li>Yanick Fratantonio, Google</li>
+</ul>
+
+<h4>Program committee</h4>
+<ul>
+  <li>Adrian Dabrowski, CISPA Helmholtz Center for Information Security</li>
+  <li>Andrea Continella, University of Twente</li>
+  <li>Andrea Possemato</li>
+  <li>Aravind Machiry, Purdue University</li>
+  <li>Ben Nassi, Ben-Gurion University of the Negev</li>
+  <li>Clémentine Maurice, CNRS, IRISA</li>
+  <li>Collin Mulliner</li>
+  <li>Daniel Andriesse, Intel Corporation</li>
+  <li>Daniele Antonioli, EURECOM</li>
+  <li>Dave (Jing) Tian, Purdue University</li>
+  <li>Fabio Pagani, UC Santa Barbara</li>
+  <li>Fangfei Liu, Intel Corporation</li>
+  <li>Federico Maggi, AWS</li>
+  <li>Kyle Zeng, Arizona State University</li>
+  <li>Lucas Davi, University of Duisburg-Essen</li>
+  <li>Manuel Egele, Boston University</li>
+  <li>Marco Squarcina, TU Wien</li>
+  <li>Mariano Graziano, JPMorgan Chase</li>
+  <li>Marius Muench, Vrije Universiteit Amsterdam</li>
+  <li>Mathias Payer, EPFL</li>
+  <li>Mathy Vanhoef, imec-DistriNet, KU Leuven</li>
+  <li>Michael Schwarz, CISPA Helmholtz Center for Information Security</li>
+  <li>Natalie Silvanovich, Google</li>
+  <li>Sofia Celi, Brave</li>
+  <li>Takeshi Sugawara, The University of Electro-Communications</li>
+  <li>Thomas Roth, Leveldown Security</li>
+  <li>Travis Goodspeed</li>
+  <li>Victor van der Veen, Qualcomm</li>
+  <li>Xiali (Sharon) Hei, University of Louisiana at Lafayette</li>
+  <li>Yongdae Kim, KAIST</li>
+  <li>Yuval Yarom, University of Adelaide</li>
+  <li>Zhenpeng Lin, Northwestern University</li>
+</ul>
+
+
+<h4>Artifact Evaluation chair (email: woot23ae@secpriv.wien)</h4>
+<ul>
+	<li>Marco Squarcina, TU Wien</li>
+</ul>
+
+
+<h4>Artifact Evaluation committee</h4>
+<ul>
+    <li>Aakash Sharma, UiT The Arctic University of Norway</li>
+    <li>Adrian Herrera, Defence Science and Technology Group (DSTG) and Australian National University (ANU)</li>
+    <li>Amit Samanta, University of Utah</li>
+    <li>Anunay Kulshrestha, Princeton University</li>
+    <li>Giulio De Pasquale, King's College London</li>
+    <li>Hadrien Barral, ENS</li>
+    <li>Hyungsub Kim, Purdue University</li>
+    <li>Jessy Ayala, UC Irvine</li>
+    <li>Kazi Samin Mubasshir, Purdue University</li>
+    <li>Lorenzo Cazzaro, Ca' Foscari University of Venice</li>
+    <li>Marco Bonelli, Independent</li>
+    <li>Matthew Revelle, Kudu Dynamics</li>
+    <li>Michael Pucher, University of Vienna</li>
+    <li>Mirza Masfiqur Rahman, Purdue University</li>
+    <li>Muhammad Ibrahim, Purdue University</li>
+    <li>Nathan Rutherford, "Royal Holloway,</li>
+    <li>Pedro Bernardo, TU Wien</li>
+    <li>Sachin Kumar Singh, University of Utah</li>
+    <li>Xin Jin, The Ohio State University</li>
+    <li>Yash Vekaria, University of California - Davis</li>
+    <li>Zhibo Li, University of Edinburgh</li>
+</ul>
+
+<h4>Steering committee</h4>
+<ul>
+    <li>Aurélien Francillon, EURECOM</li>
+    <li>Yuval Yarom, University of Adelaide and Data61</li>
+    <li>Clémentine Maurice, CNRS</li>
+    <li>Sarah Zennou, Airbus</li>
+    <li>Collin Mulliner, Cruise</li>
+    <li>Fangfei Liu, Intel</li>
+    <li>Mathias Payer, EPFL</li>
+    <li>Colin O'Flynn, NewAE Technology and Dalhousie University</li>
+    <li>Martina Lindorfer, TU Wien</li>
+</ul>
+
+
+
+</div>
+</section>
+
+<hr>
+
+<h4>In Cooperation with Usenix Security</h4>
+<div class="container">
+<p>WOOT is presented in cooperation with Usenix Security.</p>
+<p>
+<a href="https://www.usenix.org/"></a><img src="usenix_logo_full_social_share_1200.png" width="200px" alt="USENIX Logo"/></a>
+</p>
+</div>
+
+
+
+<section id="sponsors">
+<div class="container">
+<h2>Sponsors</h2>
+Reach out to the chairs (woot23chairs@gmail.com) if you are interested to sponsor this event! Thank you!
+<p>
+<p>
+<table border="0">
+<tr><td><a href="https://binarly.io/"><img src="sponsor/Binarly_logo.png" width="200px"/></a></td>
+<td><a href="https://www.synacktiv.com/en.html"><img src="sponsor/Synacktiv_logo.png" width="200px"/></a></td></tr>
+<tr><td><h4><span style='color:grey'><center>Silver Sponsor</center></span></h4></td>
+ <td><h4><span style='color:grey'><center>Silver Sponsor</center></span></h4></td></tr>
+</table>
+</p>
+
+
+
+
+</div>
+</section>
+
+</main>
+<script src="js/jquery-3.4.1.slim.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
