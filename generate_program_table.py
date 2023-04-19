@@ -17,7 +17,7 @@ out += """
     <tbody>
         <tr>
                 <th style="width: 100px;">Time</th>
-                <th style="width: 961px;">Title &amp; Authors</th>
+                <th style="width: 961px;">Title & Authors</th>
         </tr>
 """
 
