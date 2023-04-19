@@ -1,0 +1,59 @@
+Time, Title (Authors)
+
+8:00 - 8:15, Welcome!, Sara Rampazzi & Yanick Fratantonio
+
+8:15 - 9:00, Keynote: TBD, Kevin Butler
+
+
+9:00 - 10:00, Session 1: Malware & Obfuscation (Session Chair: TBD)
+
+Reflections on Trusting Docker: Invisible Malware in Continuous Integration Systems, Florent Moriconi (EURECOM), Axel Ilmari Neergaard (EURECOM), Lucas Georget (EURECOM), Samuel Aubertin (EURECOM), Aurélien Francillon (EURECOM)
+
+ROPfuscator: Robust Obfuscation with ROP, Giulio De Pasquale (King's College London), Fukutomo Nakanishi (Toshiba Corporation), Daniele Ferla (Università di Bologna), Lorenzo Cavallaro (University College London)
+
+GPThreats-3: Is Automatic Malware Generation a Threat?, Marcus Botacin (Texas A&M University)
+
+Emoji shellcoding in RISC-V, Hadrien Barral (Ecole Normale Supérieure), Georges-Axel Jaloyan (Ecole Normale Supérieure), David Naccache (Ecole Normale Supérieure)
+
+
+10:00 - 10:30, Morning Break
+
+10:30 - 12:00, Session 2: Hardware Security (Session Chair: TBD)
+
+The Ghost Is The Machine: Weird Machines in Transient Execution, Ping-Lun Wang (Carnegie Mellon University), Fraser Brown (Carnegie Mellon University), Riad S. Wahby (Carnegie Mellon University)
+
+Cryo-Mechanical RAM Content Extraction Against Modern Embedded Systems, Yuanzhe Wu (Red Balloon Security), Grant Skipper (Red Balloon Security), Ang Cui (Red Balloon Security)
+
+CustomProcessingUnit: Reverse Engineering and Customization of Intel Microcode, Pietro Borrello (Sapienza University of Rome), Catherine Easdon (Dynatrace Research & Graz University of Technology), Martin Schwarzl (Graz University of Technology), Roland Czerny (Graz University of Technology), Michael Schwarz (CISPA Helmholtz Center for Information Security)
+
+The Little Seal Bug: Optical Sound Recovery from Lightweight Reflective Objects, Ben Nassi (Ben-Gurion University of the Negev), Raz Swissa (Ben-Gurion University of the Negev), Jacob Shams (Ben-Gurion University of the Negev), Boris Zadov (Ben-Gurion University of the Negev), Yuval Elovici (Ben-Gurion University of the Negev)
+
+ESPwn32: Hacking with ESP32 System-on-Chips, Romain Cayre (EURECOM), Damien Cauquil (Quarkslab), Aurélien Francillon (EURECOM)
+
+
+12:00 - 13:00, Lunch Break
+
+13:00 - 13:45, Keynote: TBD, Richard Johnson
+
+13:45 - 14:45, Session 3: Fuzzing & Exploitation
+
+Fuzzing the Latest NTFS in Linux with Papora: An Empirical Study, Edward Lo (Amber Group), Ningyu He (Peking University), Yuejie Shi (Amber Group), Jiajia Xu (Amber Group), Chiachih Wu (Amber Group), Ding Li (Peking University), Yao Guo (Peking University)
+
+Divergent Representations: When Compiler Optimizations Enable Exploitation, Andreas D. Kellas (Columbia University), Alan Cao (Trail of Bits), Peter Goodman (Trail of Bits), Junfeng Yang (Columbia University)
+
+Go or No Go: Differential Fuzzing of Native and C Libraries, Alessandro Sorniotti (IBM Research Europe - Zurich),  Michael Weissbacher (Block, Inc.), Anil Kurmus (IBM Research Europe - Zurich)
+
+ASanity: On Bug Shadowing by Early ASan Exits, Vincent Ulitzsch (Technische Universität Berlin), Dominik Maier (Technische Universität Berlin), Deniz Scholz (Technische Universität Berlin)
+
+15:00 - 15:45, Session 4: Web & Network Security
+
+Scripted Henchmen: Cross-site Vulnerability Detection, Tom Van Goethem (imec-DistriNet, KU Leuven), Iskander Sanchez-Rola (Norton Research Group), Wouter Joosen (imec-DistriNet, KU Leuven)
+
+Hakuin: Optimizing Blind SQL Injection with Probabilistic Language Models, Jakub Pružinec (Cybersecurity Researcher), Nguyen Anh Quynh (Cybersecurity Researcher)
+
+Towards Simultaneous Attacks on Multiple Cellular Networks, Alexander Ross (North Carolina State University), Bradley Reaves (North Carolina State University)
+
+15:45 - 16:00, Awards Announcements & Closing Remarks, Sara Rampazzi & Yanick Fratantonio
+
+16:00 - 17:00, Demo Session
+
