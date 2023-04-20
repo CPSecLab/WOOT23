@@ -16,7 +16,7 @@ out += """
 <table class="table table-striped">
     <tbody>
         <tr>
-                <th style="width: 100px;">Time</th>
+                <th style="width: 150px;">Time</th>
                 <th style="width: 961px;">Title & Authors</th>
         </tr>
 """
@@ -39,14 +39,14 @@ for line in lines:
         if authors is not None:
             out += f"""
                 <tr>
-                    <td style="width:100px">{time}</td>
+                    <td style="width:150px">{time}</td>
                     <td style="width:961px"><strong>{title}</strong>, <em>{authors}</em></td>
                 </tr>
             """
         else:
             out += f"""
                 <tr>
-                    <td style="width:100px">{time}</td>
+                    <td style="width:150px">{time}</td>
                     <td style="width:961px"><strong>{title}</strong></td>
                 </tr>
             """
@@ -55,7 +55,7 @@ for line in lines:
         title, authors = line.split(', ', 1)
         out += f"""
             <tr>
-                <td style="width:100px"></td>
+                <td style="width:150px"></td>
                 <td style="width:961px"><strong>{title}</strong>, <em>{authors}</em></td>
             </tr>
         """
