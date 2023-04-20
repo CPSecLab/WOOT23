@@ -16,8 +16,8 @@ out += """
 <table class="table table-striped">
     <tbody>
         <tr>
-                <th style="width: 150px;">Time</th>
-                <th style="width: 961px;">Title & Authors</th>
+                <th style="width: 150px; color: #c44;">Time (PDT)</th>
+                <th style="width: 961px; color: #c44;">Title & Authors</th>
         </tr>
 """
 
@@ -56,7 +56,7 @@ for line in lines:
         out += f"""
             <tr>
                 <td style="width:150px"></td>
-                <td style="width:961px"><strong>{title}</strong>, <em>{authors}</em></td>
+                <td style="width:961px"><strong>{title}</strong><br><em>{authors}</em></td>
             </tr>
         """
 

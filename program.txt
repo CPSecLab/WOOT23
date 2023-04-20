@@ -1,7 +1,7 @@
 
 8:00 - 8:15, Welcome!, Sara Rampazzi & Yanick Fratantonio
 
-8:15 - 9:00, Keynote: TBD, Kevin Butler
+8:15 - 9:00, Keynote: TBD, Kevin Butler (University of Florida)
 
 
 9:00 - 10:00, Session 1: Malware & Obfuscation (Session Chair: TBD)
@@ -17,7 +17,7 @@ Emoji shellcoding in RISC-V, Hadrien Barral (Ecole Normale Supérieure), Georges
 
 10:00 - 10:30, Morning Break
 
-10:30 - 12:00, Session 2: Hardware Security (Session Chair: TBD)
+10:30 - 12:00, Session 2: Hardware Security & Side Channels (Session Chair: TBD)
 
 The Ghost Is The Machine: Weird Machines in Transient Execution, Ping-Lun Wang (Carnegie Mellon University), Fraser Brown (Carnegie Mellon University), Riad S. Wahby (Carnegie Mellon University)
 
@@ -34,7 +34,7 @@ ESPwn32: Hacking with ESP32 System-on-Chips, Romain Cayre (EURECOM), Damien Cauq
 
 13:00 - 13:45, Keynote: TBD, Richard Johnson
 
-13:45 - 14:45, Session 3: Fuzzing & Exploitation
+13:45 - 14:45, Session 3: Fuzzing & Exploitation (Session Chair: TBD)
 
 Fuzzing the Latest NTFS in Linux with Papora: An Empirical Study, Edward Lo (Amber Group), Ningyu He (Peking University), Yuejie Shi (Amber Group), Jiajia Xu (Amber Group), Chiachih Wu (Amber Group), Ding Li (Peking University), Yao Guo (Peking University)
 
@@ -44,7 +44,7 @@ Go or No Go: Differential Fuzzing of Native and C Libraries, Alessandro Sorniott
 
 ASanity: On Bug Shadowing by Early ASan Exits, Vincent Ulitzsch (Technische Universität Berlin), Dominik Maier (Technische Universität Berlin), Deniz Scholz (Technische Universität Berlin)
 
-15:00 - 15:45, Session 4: Web & Network Security
+15:00 - 15:45, Session 4: Web & Network Security (Session Chair: TBD)
 
 Scripted Henchmen: Cross-site Vulnerability Detection, Tom Van Goethem (imec-DistriNet, KU Leuven), Iskander Sanchez-Rola (Norton Research Group), Wouter Joosen (imec-DistriNet, KU Leuven)
 
@@ -54,5 +54,5 @@ Towards Simultaneous Attacks on Multiple Cellular Networks, Alexander Ross (Nort
 
 15:45 - 16:00, Awards Announcements & Closing Remarks, Sara Rampazzi & Yanick Fratantonio
 
-16:00 - 17:00, Demo Session
+16:00 - 17:00, Demo & Poster Session
 
