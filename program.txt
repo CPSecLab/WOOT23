@@ -44,6 +44,8 @@ Go or No Go: Differential Fuzzing of Native and C Libraries, Alessandro Sorniott
 
 ASanity: On Bug Shadowing by Early ASan Exits, Vincent Ulitzsch (Technische Universität Berlin), Dominik Maier (Technische Universität Berlin), Deniz Scholz (Technische Universität Berlin)
 
+14:45 - 15:00, Afternoon Break
+
 15:00 - 15:45, Session 4: Web & Network Security (Session Chair: TBD)
 
 Scripted Henchmen: Cross-site Vulnerability Detection, Tom Van Goethem (imec-DistriNet, KU Leuven), Iskander Sanchez-Rola (Norton Research Group), Wouter Joosen (imec-DistriNet, KU Leuven)
