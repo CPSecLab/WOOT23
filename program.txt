@@ -48,7 +48,8 @@ ASanity: On Bug Shadowing by Early ASan Exits, Vincent Ulitzsch (Technische Univ
 
 15:00 - 15:45, Session 4: Web & Network Security (Session Chair: TBD)
 
-Scripted Henchmen: Cross-site Vulnerability Detection, Tom Van Goethem (imec-DistriNet, KU Leuven), Iskander Sanchez-Rola (Norton Research Group), Wouter Joosen (imec-DistriNet, KU Leuven)
+
+Scripted Henchmen: Leveraging XS-Leaks for Cross-Site Vulnerability Detection, Tom Van Goethem (imec-DistriNet, KU Leuven), Iskander Sanchez-Rola (Norton Research Group), Wouter Joosen (imec-DistriNet, KU Leuven)
 
 Hakuin: Optimizing Blind SQL Injection with Probabilistic Language Models, Jakub Pružinec (Cybersecurity Researcher), Nguyen Anh Quynh (Cybersecurity Researcher)
 
